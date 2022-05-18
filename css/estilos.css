@@ -1,0 +1,25 @@
+#gira {
+    margin-top: 8%;
+}
+.footer {
+    color: black;
+    background-color: rgb(133, 133, 133);
+    padding: 10px;
+    font-size: 20px;
+    font-family: Georgia;
+    font-weight: 600; 
+    margin-top: 2%; 
+}
+h2,h3 {
+    font-family:Nunito Sans ;
+    font-size: 30px;
+}
+
+p {
+    line-height: 1.5;
+    font-family: Arial;
+    font-size: 100%;
+}
+h1 {
+    font-family:Gloria Hallelujah ;
+}
