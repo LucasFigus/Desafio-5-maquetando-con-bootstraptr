@@ -1,0 +1,30 @@
+/* VARIABLES */
+$colorletra: rgb(255, 255, 255);
+/* ESTILOS*/
+h2,h3 {
+    color: $colorletra;
+    font-family:Nunito Sans ;
+    font-size: 30px;
+}
+
+p {
+    color: $colorletra;
+    line-height: 1.5;
+    font-family: Arial;
+    font-size: 100%;
+}
+h1 {
+    color: $colorletra;
+    font-family:Gloria Hallelujah ;
+}
+form {
+    label {
+        color: $colorletra;
+    }
+}
+div.footer {
+    color: $colorletra;
+    font-size: 20px;
+    font-family: Georgia;
+    font-weight: 600; 
+}

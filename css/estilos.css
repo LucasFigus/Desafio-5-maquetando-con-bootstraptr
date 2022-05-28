@@ -1,39 +1,23 @@
-/* VARIABLES */
-/* ESTILOS*/
-/* line 4, ../proyecto coder - 2da pre entrega/scss/estilos.scss */
+/* line 1, ../proyecto coder - 2da pre entrega/scss/_base.scss */
 html {
   background-color: #161616;
 }
 
-/* line 6, ../proyecto coder - 2da pre entrega/scss/estilos.scss */
+/* line 3, ../proyecto coder - 2da pre entrega/scss/_base.scss */
 html body {
   background-color: #171717;
 }
 
-/* line 10, ../proyecto coder - 2da pre entrega/scss/estilos.scss */
-#gira {
-  margin-top: 8%;
-}
-
-/* line 13, ../proyecto coder - 2da pre entrega/scss/estilos.scss */
-div.footer {
-  color: white;
-  background-color: #858585;
-  padding: 10px;
-  font-size: 20px;
-  font-family: Georgia;
-  font-weight: 600;
-  margin-top: 2%;
-}
-
-/* line 22, ../proyecto coder - 2da pre entrega/scss/estilos.scss */
+/* VARIABLES */
+/* ESTILOS*/
+/* line 4, ../proyecto coder - 2da pre entrega/scss/_letra.scss */
 h2, h3 {
   color: white;
   font-family: Nunito Sans;
   font-size: 30px;
 }
 
-/* line 28, ../proyecto coder - 2da pre entrega/scss/estilos.scss */
+/* line 10, ../proyecto coder - 2da pre entrega/scss/_letra.scss */
 p {
   color: white;
   line-height: 1.5;
@@ -41,21 +25,41 @@ p {
   font-size: 100%;
 }
 
-/* line 34, ../proyecto coder - 2da pre entrega/scss/estilos.scss */
+/* line 16, ../proyecto coder - 2da pre entrega/scss/_letra.scss */
 h1 {
   color: white;
   font-family: Gloria Hallelujah;
 }
 
-/* line 39, ../proyecto coder - 2da pre entrega/scss/estilos.scss */
+/* line 21, ../proyecto coder - 2da pre entrega/scss/_letra.scss */
+form label {
+  color: white;
+}
+
+/* line 25, ../proyecto coder - 2da pre entrega/scss/_letra.scss */
+div.footer {
+  color: white;
+  font-size: 20px;
+  font-family: Georgia;
+  font-weight: 600;
+}
+
+/* line 1, ../proyecto coder - 2da pre entrega/scss/_decoracion.scss */
+#gira {
+  margin-top: 8%;
+}
+
+/* line 4, ../proyecto coder - 2da pre entrega/scss/_decoracion.scss */
+div.footer {
+  background-color: #858585;
+  padding: 10px;
+  margin-top: 2%;
+}
+
+/* line 10, ../proyecto coder - 2da pre entrega/scss/_decoracion.scss */
 img.galeria:hover {
   transform: scale(1.1);
   transition: 1s;
-}
-
-/* line 45, ../proyecto coder - 2da pre entrega/scss/estilos.scss */
-form label {
-  color: white;
 }
 
 /*# sourceMappingURL=estilos.css.map */
