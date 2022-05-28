@@ -10,34 +10,34 @@ html body {
 
 /* VARIABLES */
 /* ESTILOS*/
-/* line 4, ../proyecto coder - 2da pre entrega/scss/_letra.scss */
-h2, h3 {
+/* line 5, ../proyecto coder - 2da pre entrega/scss/_letra.scss */
+header h1 {
+  color: white;
+  font-family: Gloria Hallelujah;
+}
+
+/* line 11, ../proyecto coder - 2da pre entrega/scss/_letra.scss */
+main h2, main h3 {
   color: white;
   font-family: Nunito Sans;
   font-size: 30px;
 }
 
-/* line 10, ../proyecto coder - 2da pre entrega/scss/_letra.scss */
-p {
+/* line 16, ../proyecto coder - 2da pre entrega/scss/_letra.scss */
+main p {
   color: white;
   line-height: 1.5;
   font-family: Arial;
   font-size: 100%;
 }
 
-/* line 16, ../proyecto coder - 2da pre entrega/scss/_letra.scss */
-h1 {
-  color: white;
-  font-family: Gloria Hallelujah;
-}
-
-/* line 21, ../proyecto coder - 2da pre entrega/scss/_letra.scss */
-form label {
+/* line 23, ../proyecto coder - 2da pre entrega/scss/_letra.scss */
+main form label {
   color: white;
 }
 
-/* line 25, ../proyecto coder - 2da pre entrega/scss/_letra.scss */
-div.footer {
+/* line 29, ../proyecto coder - 2da pre entrega/scss/_letra.scss */
+footer p {
   color: white;
   font-size: 20px;
   font-family: Georgia;
@@ -50,7 +50,7 @@ div.footer {
 }
 
 /* line 4, ../proyecto coder - 2da pre entrega/scss/_decoracion.scss */
-div.footer {
+footer {
   background-color: #858585;
   padding: 10px;
   margin-top: 2%;
