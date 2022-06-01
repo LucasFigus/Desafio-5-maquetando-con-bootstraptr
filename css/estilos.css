@@ -9,21 +9,22 @@ html body {
 }
 
 /* VARIABLES */
+/* MIXIN */
 /* ESTILOS*/
-/* line 5, ../proyecto coder - 2da pre entrega/scss/_letra.scss */
+/* line 9, ../proyecto coder - 2da pre entrega/scss/_letra.scss */
 header h1 {
   color: white;
   font-family: Gloria Hallelujah;
 }
 
-/* line 11, ../proyecto coder - 2da pre entrega/scss/_letra.scss */
+/* line 15, ../proyecto coder - 2da pre entrega/scss/_letra.scss */
 main h2, main h3 {
   color: white;
   font-family: Nunito Sans;
-  font-size: 30px;
+  font-size: 190%;
 }
 
-/* line 16, ../proyecto coder - 2da pre entrega/scss/_letra.scss */
+/* line 20, ../proyecto coder - 2da pre entrega/scss/_letra.scss */
 main p {
   color: white;
   line-height: 1.5;
@@ -31,17 +32,17 @@ main p {
   font-size: 100%;
 }
 
-/* line 23, ../proyecto coder - 2da pre entrega/scss/_letra.scss */
+/* line 27, ../proyecto coder - 2da pre entrega/scss/_letra.scss */
 main form label {
   color: white;
 }
 
-/* line 29, ../proyecto coder - 2da pre entrega/scss/_letra.scss */
+/* line 33, ../proyecto coder - 2da pre entrega/scss/_letra.scss */
 footer p {
   color: white;
-  font-size: 20px;
   font-family: Georgia;
   font-weight: 600;
+  font-size: 140%;
 }
 
 /* line 1, ../proyecto coder - 2da pre entrega/scss/_decoracion.scss */
@@ -60,6 +61,25 @@ footer {
 img.galeria:hover {
   transform: scale(1.1);
   transition: 1s;
+}
+
+/* EXTEND */
+/* line 16, ../proyecto coder - 2da pre entrega/scss/_decoracion.scss */
+.boton, .boton--enviar, .boton--limpiar {
+  background-color: white;
+  text-align: center;
+  color: black;
+  border-radius: 20px;
+}
+
+/* line 23, ../proyecto coder - 2da pre entrega/scss/_decoracion.scss */
+.boton--enviar {
+  background-color: beige;
+}
+
+/* line 27, ../proyecto coder - 2da pre entrega/scss/_decoracion.scss */
+.boton--limpiar {
+  background-color: bisque;
 }
 
 /*# sourceMappingURL=estilos.css.map */

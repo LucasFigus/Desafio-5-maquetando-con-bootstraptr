@@ -12,3 +12,19 @@ img.galeria {
         transition: 1s;
     }
 }
+/* EXTEND */
+.boton {
+    background-color: white;
+    text-align: center;
+    color: black;
+    border-radius: 20px;
+}
+
+.boton--enviar {
+    @extend .boton;
+    background-color: beige;
+}
+.boton--limpiar {
+    @extend .boton;
+    background-color: bisque;
+}
