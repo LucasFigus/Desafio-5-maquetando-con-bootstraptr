@@ -1,10 +1,10 @@
-/* line 1, ../proyecto coder - 2da pre entrega/scss/_base.scss */
-html {
+/* line 7, ../proyecto coder - 2da pre entrega/scss/_base.scss */
+.fondo--fondo1 {
   background-color: #161616;
 }
 
-/* line 3, ../proyecto coder - 2da pre entrega/scss/_base.scss */
-html body {
+/* line 7, ../proyecto coder - 2da pre entrega/scss/_base.scss */
+.fondo--fondo2 {
   background-color: #171717;
 }
 
@@ -52,7 +52,7 @@ footer p {
 
 /* line 4, ../proyecto coder - 2da pre entrega/scss/_decoracion.scss */
 footer {
-  background-color: #858585;
+  background-color: #161616;
   padding: 10px;
   margin-top: 2%;
 }

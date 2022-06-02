@@ -1,6 +1,10 @@
-html {
-    background-color: rgb(22, 22, 22);
-    body {
-        background-color: rgb(23, 23, 23);
+$fondo: (
+    fondo1:  rgb(22, 22, 22),
+    fondo2: rgb(23, 23, 23),
+);
+
+@each $hola, $color in $fondo {
+    .fondo--#{$hola} {
+        background-color: $color;
     }
 }
