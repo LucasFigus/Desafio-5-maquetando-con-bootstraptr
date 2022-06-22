@@ -1,10 +1,10 @@
-/* line 7, ../proyecto coder - 2da pre entrega/scss/_base.scss */
-.fondo--fondo1 {
+/* line 1, ../proyecto coder - 2da pre entrega/scss/_base.scss */
+html {
   background-color: #161616;
 }
 
-/* line 7, ../proyecto coder - 2da pre entrega/scss/_base.scss */
-.fondo--fondo2 {
+/* line 3, ../proyecto coder - 2da pre entrega/scss/_base.scss */
+html body {
   background-color: #171717;
 }
 
@@ -52,34 +52,32 @@ footer p {
 
 /* line 4, ../proyecto coder - 2da pre entrega/scss/_decoracion.scss */
 footer {
-  background-color: #858585;
   padding: 10px;
   margin-top: 2%;
+}
+
+/* line 8, ../proyecto coder - 2da pre entrega/scss/_decoracion.scss */
+img.galeria {
+  transition: 1s;
 }
 
 /* line 10, ../proyecto coder - 2da pre entrega/scss/_decoracion.scss */
 img.galeria:hover {
   transform: scale(1.1);
-  transition: 1s;
 }
 
-/* EXTEND */
-/* line 16, ../proyecto coder - 2da pre entrega/scss/_decoracion.scss */
-.boton, .boton--enviar, .boton--limpiar {
-  background-color: white;
+/* line 14, ../proyecto coder - 2da pre entrega/scss/_decoracion.scss */
+.boton {
+  background-color: rgba(66, 61, 61, 0.788);
   text-align: center;
-  color: black;
+  color: white;
   border-radius: 20px;
 }
 
-/* line 23, ../proyecto coder - 2da pre entrega/scss/_decoracion.scss */
-.boton--enviar {
-  background-color: beige;
-}
-
-/* line 27, ../proyecto coder - 2da pre entrega/scss/_decoracion.scss */
-.boton--limpiar {
-  background-color: bisque;
+/* line 20, ../proyecto coder - 2da pre entrega/scss/_decoracion.scss */
+.Spotify {
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
