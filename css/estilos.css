@@ -80,4 +80,12 @@ img.galeria:hover {
   margin-bottom: 20px;
 }
 
+@media (max-width: 767px) {
+  /* line 25, ../proyecto coder - 2da pre entrega/scss/_decoracion.scss */
+  .Youtube {
+    width: 105%;
+    height: 70%;
+  }
+}
+
 /*# sourceMappingURL=estilos.css.map */

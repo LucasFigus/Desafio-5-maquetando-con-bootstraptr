@@ -21,3 +21,10 @@ img.galeria {
     width: 100%;
     margin-bottom: 20px;
 }
+@media (max-width: 767px) {
+    .Youtube {
+        width: 105%;
+        height: 70%;
+
+    }
+}
